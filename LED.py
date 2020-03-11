@@ -126,14 +126,6 @@ def iblink(color=Colors.RED, t=0.1):
     time.sleep(t)
 
 
-# # loop through 50 times, on/off for 1 second
-# for i in range(50):
-#     GPIO.output(40, True)
-#     time.sleep(1)
-#     GPIO.output(40, False)
-#     time.sleep(1)
-# GPIO.cleanup()
-
 if __name__ == '__main__':
     if not len(sys.argv) in [2, 3]:
         usage()
