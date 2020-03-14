@@ -4,9 +4,15 @@ The multi-color RGB LED status indicator.  It accepts either a combination of co
 
 ## HEADER
 
+
+![Raspberry Pi Zero W GPIO Header Pinout](pi0w-pinout.jpg)
+
+We attach the RGB LED to the last 4 pins 34, 36, 38 and 40 of the outermost row.
+From left (sdcard) to right: GND-B-G-R
+
 ```
-................xxxx
-0...................
+SD ................xxxx
+   0...................
 ```
 
 ## Usage
